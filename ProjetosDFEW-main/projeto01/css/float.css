@@ -1,0 +1,58 @@
+/* Aplica box-sizing: border-box a todos os elementos, incluindo padding e borda no cálculo da largura/altura */
+* {
+    box-sizing: border-box;
+  }
+  /* Define a fonte padrão para o corpo da página */
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  /* Estiliza o cabeçalho da página */
+  header {
+    background-color: #666;       /* Cor de fundo cinza escuro */
+    padding: 30px;                /* Espaçamento interno de 30px */
+    text-align: center;           /* Centraliza o texto */
+    font-size: 35px;              /* Tamanho da fonte grande */
+    color: white;                 /* Cor do texto branca */
+  }
+  /* Estiliza a barra de navegação (menu lateral) */
+  nav {
+    float: left;                  /* Faz o elemento flutuar à esquerda */
+    width: 30%;                   /* Ocupa 30% da largura da tela */
+    height: 300px;                /* Altura fixa para demonstração (remover em produção) */
+    background: #ccc;             /* Cor de fundo cinza claro */
+    padding: 20px;                /* Espaçamento interno de 20px */
+  }
+  /* Remove os marcadores da lista e o espaçamento interno dentro do Menu */
+  nav ul {
+    list-style-type: none;        /* Remove os bullets da lista */
+    padding: 0;                   /* Remove o padding padrão */
+  }
+  /* Estiliza o conteúdo principal */
+  article {
+    float: left;                  /* Flutua à esquerda, ao lado do nav */
+    padding: 20px;                /* Espaçamento interno de 20px */
+    width: 70%;                   /* Ocupa 70% da largura da tela */
+    background-color: #f1f1f1;    /* Cor de fundo cinza muito claro */
+    height: 300px;                /* Altura fixa para demonstração (remover em produção) */
+  }
+  /* Garante que os elementos flutuantes dentro da section sejam corretamente encerrados */
+  section::after {
+    content: "";                  /* Gera um conteúdo vazio */
+    display: table;              /* Faz com que o pseudo-elemento se comporte como uma tabela */
+    clear: both;                 /* Limpa os floats anteriores */
+  }
+  /* Estiliza o rodapé da página */
+  footer {
+    background-color: #777;       /* Cor de fundo cinza médio */
+    padding: 10px;                /* Espaçamento interno de 10px */
+    text-align: center;           /* Centraliza o texto */
+    color: white;                 /* Cor do texto branca */
+  }
+  /* Torna o layout responsivo em telas pequenas (até 600px de largura), faz com que as duas colunas/caixas sejam empilhadas uma sobre a outra, em vez de uma ao lado da outra, em telas pequenas */
+  @media (max-width: 600px) {
+    nav, article {
+      width: 100%;                /* Faz com que os elementos ocupem toda a largura */
+      height: auto;               /* Remove a altura fixa para se ajustar ao conteúdo */
+    }
+  }
+  
