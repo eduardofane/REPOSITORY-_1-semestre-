@@ -10,17 +10,6 @@ Minha paixão é **aprender e inovar**. Sou focado em:
 - **Eficiência e Otimização:** Priorizo a criação de sistemas que sejam rápidos, escaláveis e com o melhor desempenho possível.
 - **Aprendizado Contínuo:** Estou sempre em busca de novas tecnologias, metodologias e melhores práticas para aprimorar minhas habilidades.
 
-## 🌟 Projetos em Destaque
-
-Aqui está um exemplo prático dos meus conhecimentos em Algoritmos e Estrutura de Dados:
-
-### 🔢 Projeto Ordenador
-| Detalhe | Informação |
-| :--- | :--- |
-| **Descrição** | Implementação de um algoritmo de ordenação (sorting) para demonstrar a compreensão de lógica de programação e análise de eficiência de algoritmos computacionais. Este foi um projeto chave da disciplina de Algoritmos. |
-| **Tecnologia** | [Você deve preencher a linguagem usada no projeto (Ex: Python, C, Java)] |
-| **Repositório** | [Acessar Projeto Ordenador]() |
-
 ## 🎓 Formação Acadêmica
 
 | Categoria | Detalhes |
@@ -58,6 +47,6 @@ Estou buscando oportunidades para:
 
 | Plataforma | Link |
 | :--- | :--- |
-| **GitHub** | **** |
+| **GitHub** | **https://github.com/eduardofane/REPOSITORY-_1-semestre-** |
 
 ---
