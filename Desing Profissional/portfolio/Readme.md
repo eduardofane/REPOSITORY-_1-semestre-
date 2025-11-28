@@ -1,87 +1,51 @@
-# 🎓 Cadastro de Alunos
 
-![Status do Projeto](https://img.shields.io/badge/Status-Concluído-brightgreen)
+# 🚀 Eduardo Fane Machado de Morais
 
+Olá! Eu sou **Eduardo Fane Machado de Morais**, um entusiasta e futuro profissional da área de **Tecnologia da Informação**, focado em **Análise e Desenvolvimento de Sistemas**.
 
----
+## 🎯 Objetivo e Foco
 
-## 📝 Descrição do Projeto
+Minha paixão é **aprender e inovar**. Sou focado em:
 
-Este é um projeto acadêmico desenvolvido para a disciplina de **Projetos de Algoritmos Computacionais** na UDF.
+- **Transformar desafios em soluções digitais:** Busco ativamente problemas para resolvê-los com código.
+- **Eficiência e Otimização:** Priorizo a criação de sistemas que sejam rápidos, escaláveis e com o melhor desempenho possível.
+- **Aprendizado Contínuo:** Estou sempre em busca de novas tecnologias, metodologias e melhores práticas para aprimorar minhas habilidades.
 
-O objetivo é implementar um sistema de gerenciamento de dados que demonstra o uso de estruturas de dados e algoritmos fundamentais. O sistema permite o **CRUD** (Create, Read, Update, Delete) de registros de alunos, aplicando lógica de programação para manipulação e persistência de dados em arquivo.
+## 🎓 Formação Acadêmica
 
----
-
-## 🚀 Funcionalidades Principais
-
-O sistema foi desenhado para ser operado via console/terminal e oferece as seguintes opções:
-
-* **Cadastrar** novo aluno (incluindo Matrícula, Nome e Notas).
-* **Listar** todos os alunos registrados.
-* **Buscar** um aluno por [ex: Matrícula].
-* **Atualizar** dados de um registro existente.
-* **Excluir** um aluno do cadastro.
-* **Persistência de Dados**: Carrega os dados ao iniciar e salva ao sair, usando um arquivo.
-
----
-
-## 🛠️ Tecnologias Utilizadas
-
-A tabela abaixo detalha as ferramentas e linguagens utilizadas na construção deste projeto:
-
-| Categoria | Tecnologia / Ferramenta |
+| Categoria | Detalhes |
 | :--- | :--- |
-| **Linguagem Principal** | **[PLACEHOLDER: C ]** |
-| **Ambiente de Execução** | Console / Terminal |
-| **Estrutura de Dados** | [...PLACEHOLDER: Vetores, Listas, Structs, etc.] |
-| **Persistência** | Manipulação de arquivos **`.txt`** ou **`.dat`**. |
+| **Curso** | Análise e Desenvolvimento de Sistemas |
+| **Instituição** | **Centro Universitário do Distrito Federal** |
+| **Previsão de Conclusão** | 2027 |
+
+## 🛠️ Habilidades Técnicas
+
+Apesar de estar no início da jornada, estas são as áreas que estou ativamente estudando e desenvolvendo:
+
+### Linguagens de Programação
+- **C,HTML,CSS,PHYTON.**
+
+### Banco de Dados
+- **PostgreSQL,**
+
+
+### Ferramentas e Outros
+- **Git, Git Hub, VS Code, Power Bi**
+
+
+## 🌱 O Que Busco
+
+Estou buscando oportunidades para:
+
+- Colaborar em **projetos Grandes** que me permitam crescer como profissional e pessoa , conseguir  expandir meus conhecimentos.
+- **Estágios ou programas de trainee** na área de desenvolvimento de software ou análise de sistemas.
+- Conectar-me com profissionais experientes para **mentorias e networking**.
 
 ---
 
-## ⚙️ Como Executar o Projeto
+### 🔗 Conecte-se Comigo
 
-Siga os passos para ter uma cópia local do projeto rodando.
-
-### Pré-requisitos
-
-Você precisará ter o compilador ou interpretador da linguagem instalado em sua máquina.
-
-* **[...PLACEHOLDER: Nome do Compilador/Interpretador, ex: GCC para C]**
-
-### Instalação
-
-1.  **Clone o repositório** para sua máquina local:
-    ```bash
-    git clone [https://github.com/dinizgustavo085-maker/ProjetosAlgortimosComputacionaisUDF](https://github.com/dinizgustavo085-maker/ProjetosAlgortimosComputacionaisUDF)
-    cd ProjetosAlgortimosComputacionaisUDF/Cadrastro_de_Alunos
-    ```
-
-2.  **Compile o código** (Se a linguagem for compilada):
-    ```bash
-    # Exemplo para C
-    gcc -o cadastro_alunos main.c
-    ```
-
-3.  **Execute o sistema**:
-    ```bash
-    # Exemplo para C (Após compilação)
-    ./cadastro_alunos
-
-    # Exemplo para Python
-    python main.py
-    ```
-
-> **Nota:** Se você encontrar erros de permissão na execução, tente usar `chmod +x cadastro_alunos` antes de executar.
-
----
-
-## 🧑‍💻 Autor
-
-Este projeto foi desenvolvido por:
-
-* **[Gustavo Diniz]**
-* **GitHub:** [@dinizgustavo085-maker](https://github.com/dinizgustavo085-maker)
-
-
----
+| Plataforma | Link |
+| :--- | :--- |
+| **GitHub** | **https://github.com/eduardofane/REPOSITORY-_1-semestre-** |
