@@ -39,7 +39,7 @@ Para acessar o conteúdo de um projeto específico:
 
 | Aluno | Contato |
 | :--- | :--- |
-| **Eduardo Fane** | [Seu Email] / [Seu LinkedIn] |
+| **Eduardo Fane** | [faneeduardo9@gmail.com] |
 
 ---
 
