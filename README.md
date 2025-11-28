@@ -1,52 +1,51 @@
-# 🚀 Eduardo Fane Machado de Morais
+# 🎓 REPOSITÓRIO DE PROJETOS - 1º SEMESTRE
 
-Olá! Eu sou **Eduardo Fane Machado de Morais**, um entusiasta e futuro profissional da área de **Tecnologia da Informação**, focado em **Análise e Desenvolvimento de Sistemas**.
+## 🌟 Visão Geral
 
-## 🎯 Objetivo e Foco
+Este repositório é o *hub* central que consolida todos os projetos, trabalhos e materiais de estudo desenvolvidos nas diversas disciplinas do **Primeiro Semestre** do curso.
 
-Minha paixão é **aprender e inovar**. Sou focado em:
-
-- **Transformar desafios em soluções digitais:** Busco ativamente problemas para resolvê-los com código.
-- **Eficiência e Otimização:** Priorizo a criação de sistemas que sejam rápidos, escaláveis e com o melhor desempenho possível.
-- **Aprendizado Contínuo:** Estou sempre em busca de novas tecnologias, metodologias e melhores práticas para aprimorar minhas habilidades.
-
-## 🎓 Formação Acadêmica
-
-| Categoria | Detalhes |
-| :--- | :--- |
-| **Curso** | Análise e Desenvolvimento de Sistemas |
-| **Instituição** | **Centro Universitário do Distrito Federal** |
-| **Previsão de Conclusão** | 2027 |
-
-## 🛠️ Habilidades Técnicas
-
-Apesar de estar no início da jornada, estas são as áreas que estou ativamente estudando e desenvolvendo:
-
-### Linguagens de Programação
-- **C,HTML,CSS,PHYTON.**
-
-### Banco de Dados
-- **PostgreSQL,**
-
-
-### Ferramentas e Outros
-- **Git, Git Hub, VS Code, Power Bi**
-
-
-## 🌱 O Que Busco
-
-Estou buscando oportunidades para:
-
-- Colaborar em **projetos Grandes** que me permitam crescer como profissional e pessoa , conseguir  expandir meus conhecimentos.
-- **Estágios ou programas de trainee** na área de desenvolvimento de software ou análise de sistemas.
-- Conectar-me com profissionais experientes para **mentorias e networking**.
+O objetivo é manter um registro organizado e de fácil acesso para cada módulo de aprendizado, permitindo rastrear a evolução e aplicação dos conceitos iniciais.
 
 ---
 
-### 🔗 Conecte-se Comigo
+## 🔗 Índice de Disciplinas e Projetos
 
-| Plataforma | Link |
+As pastas abaixo correspondem às principais disciplinas ou módulos do semestre. Para mais detalhes sobre cada projeto, navegue até a respectiva pasta e consulte o arquivo `README.md` específico de cada uma.
+
+| Pasta (Disciplina) | Descrição | Foco Principal |
+| :--- | :--- | :--- |
+| **ProjetosDFEW-main** | Desenvolvimento Front-End Web | HTML5, CSS3, JavaScript e desenvolvimento de interfaces. |
+| **Desing Profissional** | Princípios de Design e Identidade Visual | Teoria das Cores, Tipografia, Grid e ferramentas de software gráfico. |
+| **[Nome da Outra Disciplina]** | [Breve descrição do conteúdo dessa disciplina/módulo.] | [Conceitos principais abordados.] |
+| **[Outra Pasta]** | [Breve descrição.] | [Conceitos principais.] |
+
+**(Dica: Preencha as linhas restantes da tabela com o nome das outras pastas presentes no seu repositório, como Matemática, Lógica, etc.)**
+
+---
+
+## 📁 Estrutura do Repositório
+---
+
+## ⚙️ Como Navegar
+
+Para acessar o conteúdo de um projeto específico:
+
+1.  Clique na pasta da disciplina desejada (ex: `ProjetosDFEW-main`).
+2.  Consulte o `README.md` dentro dessa pasta para obter uma visão geral, requisitos e instruções de execução.
+
+---
+
+## 🧑‍💻 Autor
+
+| Aluno | Contato |
 | :--- | :--- |
-| **GitHub** | **https://github.com/eduardofane/REPOSITORY-_1-semestre-** |
+| **Eduardo Fane** | [Seu Email] / [Seu LinkedIn] |
 
+---
+
+## 📜 Licença
+
+Este repositório é de natureza acadêmica. O conteúdo está sob a licença **[Escolha uma licença, por exemplo: MIT ou Creative Commons]**.
+
+O repositório está organizado de forma modular, com cada pasta de nível superior representando uma disciplina ou um conjunto principal de projetos do semestre:
 ---
