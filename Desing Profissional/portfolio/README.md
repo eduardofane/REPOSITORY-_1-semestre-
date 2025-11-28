@@ -1,81 +1,100 @@
-# Ordenação e Análise de Desempenho em C
+# 🧮 Calculadora Científica 2.0
 
-## Descrição do Projeto
+![Status do Projeto](https://img.shields.io/badge/Status-Concluído-brightgreen)
 
-> Este programa implementa o algoritmo Insertion Sort em C, incluindo registro completo do histórico de passos, análise de desempenho e interação com o usuário.
 
-> O objetivo é mostrar, passo a passo, como o vetor evolui durante o processo de ordenação, além de comparar o número de deslocamentos realizados com o melhor caso, pior caso e caso real.
+---
 
-## Funcionalidades Implementadas
+## 📝 Descrição do Projeto
 
-> Entrada Interativa
-> - O usuário escolhe o tamanho do vetor.
-> - Digita cada número manualmente, com validação de entrada.
+Este projeto consiste na implementação de uma **Calculadora Científica**, desenvolvida para a disciplina de **Projetos de Algoritmos Computacionais** da UDF.
 
-> Ordenação via Insertion Sort
-> - Ordena o vetor do usuário.
-> - Conta o número total de deslocamentos realizados durante a ordenação.
+O objetivo central foi ir além das quatro operações aritméticas básicas, aplicando a lógica de programação para simular o comportamento de uma calculadora de nível científico. Isso envolve a utilização de **funções matemáticas avançadas**, o tratamento correto da **ordem de precedência** das operações e a garantia da **precisão** dos resultados, representando um desafio significativo na engenharia de algoritmos.
 
-> Registro de Histórico
-> - Cada passo do algoritmo é armazenado em uma matriz historico[][].
-> - O histórico mostra o vetor inicial e o estado do vetor após cada inserção.
+---
 
-> Análise Comparativa de Passos
-> -  Melhor caso: vetor já ordenado (0 deslocamentos).
-> -  Pior caso: vetor em ordem decrescente (n(n−1)/2 deslocamentos).
-> -  Caso real: com base no vetor digitado e nas operações realmente realizadas.
+## ✨ Diferencial do Projeto: Versão 2.0
 
-## Como compilar e rodar o código
-1. Abra o código no seu compilador C (Dev C++, Code::Blocks ou GDB Online).
+O maior diferencial desta implementação reside na sua capacidade de lidar com um leque de operações que exige maior complexidade algorítmica, destacando-se por:
 
-2. Compile o programa:
-```bash
-gcc -O1 -std=c11 main.c -o ordena
-```
-3. Para rodar o programa:
-```bash
-./ordena
-```
+* **Amplitude Científica:** A inclusão de funções como **trigonometria, logaritmos e potenciação** posiciona este projeto acima de calculadoras básicas, demonstrando o domínio de bibliotecas matemáticas.
+* **Robustez Matemática:** Foco em garantir a **precisão de ponto flutuante** e o tratamento de exceções (como divisão por zero ou logaritmo de números não positivos), garantindo a estabilidade do algoritmo.
+* **Versão 2.0:** Sugere um refinamento do código (ou de uma versão anterior), com melhorias na modularidade, eficiência e na experiência do usuário no console.
+* **[...PLACEHOLDER: Se aplicável: Mencione a estrutura de dados complexa utilizada, ex: Implementação de uma pilha (stack) para gerenciar a ordem de operações ou conversão Infixa para Postfixa.]**
 
-## Politicagem de Contagem de Passos
+---
 
-> O programa utiliza o número de deslocamentos internos do Insertion Sort como métrica de custo.
+## 🚀 Funcionalidades e Operações
 
-### O que conta como Passo?
-> Um passo é contabilizado toda vez que um elemento é movido para a direita dentro do laço:
-```bash
-while (j >= 0 && v[j] > aux) {
-    v[j + 1] = v[j];  // ← deslocamento contado
-    j--;
-    contador_de_passos++;
-}
-```
+A calculadora é dividida nos seguintes grupos de operações para facilitar a sua utilização:
 
-## Método de Medição de Tempo
+### ➕ Operações Básicas
+* Adição, Subtração, Multiplicação e Divisão.
 
-> Como o tempo é medido:
+### 🔬 Operações Científicas
+* **Funções Trigonométricas:** Seno, Cosseno, Tangente.
+* **Logaritmos:** Logaritmo natural e base 10.
+* **Potenciação:** Cálculo de bases elevadas a qualquer expoente ($x^y$).
+* **Raízes:** Raiz quadrada e outras raízes.
+* **Constantes:** Suporte à constante Pi ($\pi$) e Euler ($e$).
+* [...PLACEHOLDER: Inclua outras operações científicas que você implementou.]
 
-```bash
-clock_t inicio = clock();
-insertion_sort(v, TAM);
-clock_t fim = clock();
-double tempo = (double)(fim - inicio) / CLOCKS_PER_SEC;
-```
+---
 
-## CSV com resultados
+## 🛠️ Tecnologias Utilizadas
 
-| algoritmo       | tamanho | passos | tempo_medio |
-|-----------------|--------|--------|------------|
-| insertion_sort  | 8      | 12     | 0.000200 |
+| Categoria | Tecnologia / Ferramenta |
+| :--- | :--- |
+| **Linguagem Principal** | **[...PLACEHOLDER: C / Python / Java...]** |
+| **Biblioteca Matemática** | Utilização da biblioteca padrão da linguagem (ex: `math.h` em C, `math` em Python). |
+| **Interface** | Aplicação de **Console/Terminal**. |
+| **Implementação** | Uso de **funções** e **condicionais** para modularizar as operações. |
 
-## Discussão Crítica: Computabilidade × Escalabilidade
+---
 
-> Computabilidade: O algoritmo de Insertion Sort é computável e eficiente para vetores pequenos, registrando passo a passo cada movimentação dos elementos, o que permite analisar o comportamento da ordenação.
+## ⚙️ Como Executar o Projeto
 
-> Escalabilidade: Para vetores maiores, o número de passos e o histórico crescem rapidamente, tornando o registro detalhado impraticável. Isso evidencia que a escalabilidade do método é limitada; o Insertion Sort é mais adequado para pequenas quantidades de dados.
+Siga os passos para compilar e rodar a calculadora em sua máquina local.
 
-> - Melhor caso (vetor já ordenado) → mínima movimentação;
-> - Pior caso (vetor invertido) → máxima movimentação;
-> - Para grandes vetores, o histórico de todos os passos fica inviável de armazenar.
+### Pré-requisitos
 
- > Conclusão do Melhor Método: O Insertion Sort é simples e eficiente para vetores pequenos e quase ordenados, mas não é escalável para grandes volumes de dados. O registro de histórico passo a passo é útil para análise pedagógica, mas impraticável para uso em sistemas de grande escala.
+Você precisará ter o ambiente de desenvolvimento da linguagem configurado:
+
+* **[...PLACEHOLDER: Nome do Compilador/Interpretador, ex: GCC para C]**
+
+### Instalação
+
+1.  **Clone o repositório** para obter os arquivos do projeto:
+    ```bash
+    git clone [https://github.com/dinizgustavo085-maker/ProjetosAlgortimosComputacionaisUDF](https://github.com/dinizgustavo085-maker/ProjetosAlgortimosComputacionaisUDF)
+    cd "ProjetosAlgortimosComputacionaisUDF/CALCULADORA CIENTÍFICA 2,0"
+    ```
+
+2.  **Compile o código** (Se a linguagem for compilada):
+    ```bash
+    # Exemplo para C (A flag -lm é crucial para bibliotecas matemáticas)
+    gcc -o calculadora_cientifica main.c -lm
+    ```
+
+3.  **Execute o sistema**:
+    ```bash
+    # Exemplo para C (Após compilação)
+    ./calculadora_cientifica
+
+    # Exemplo para Python
+    python calculadora.py [...PLACEHOLDER: nome do arquivo principal...]
+    ```
+
+> **Instruções:** Ao executar, o programa deve exibir um menu ou solicitar a entrada de uma expressão. Siga as instruções no console.
+
+---
+
+## 🧑‍💻 Autor
+
+Este projeto foi desenvolvido por:
+
+* **[Gustavo Diniz]**
+* **GitHub:** [@dinizgustavo085-maker](https://github.com/dinizgustavo085-maker)
+
+
+---
